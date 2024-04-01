@@ -53,5 +53,5 @@ The authenticity of host '54.201.7.240 (54.201.7.240)' can't be established. ECD
 17. Click **Open** to start the PuTTY session. PuTTY will ask whether you wish to cache the server’s host key. 
 18. Click **Yes**.
 
-### You are connected to the Amazon EC2 insatnce.
+**You are now connected to the Amazon EC2 instance.**
 
