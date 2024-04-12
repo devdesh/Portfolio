@@ -1,13 +1,14 @@
 ## Connecting to an Amazon EC2 instance
 
-In this section, you will connect to your Amazon EC2 instance via SSH. An SSH connection requires port 22 to be open on your network. You may need to contact your network administrator to ensure that this is open.
+You connect to your Amazon EC2 instance via SSH. An SSH connection requires *port 22* to be open on your network. You may need to contact your network administrator to ensure *port 22* is open.
 
 <br/>
 
 ## Prerequisites
 
-* A laptop with internet connection.
-* An Amazon EC2 instance launched in AWS cloud.
+* A laptop with internet connection
+* A running Amazon EC2 instance in AWS cloud
+* An open port 22 on your laptop
 
 <br/>
 
