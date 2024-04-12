@@ -2,7 +2,7 @@
 
 CI-CD is short for Continuous Integration (CI) and Continuous Delivery (CD) in DevOps. The diagram below explains CI-CD at a high level.
 
-![What is CI-CD?]https://github.com/devdesh/Portfolio/blob/main/DevOps%20Content/Images/ci_cd.png
+![What is CI-CD?](https://github.com/devdesh/Portfolio/blob/main/DevOps%20Content/Images/ci_cd.png)
 
 ### Continuous Integration
 
@@ -44,7 +44,7 @@ automatically.
 
 # CI-CD workflow
 
-![CI-CD workflow]https://github.com/devdesh/Portfolio/blob/main/DevOps%20Content/Images/ci_cd_workflow.png
+![CI-CD workflow](https://github.com/devdesh/Portfolio/blob/main/DevOps%20Content/Images/ci_cd_workflow.png)
 
 The workflow shows the start-to-end process of a CI-CD pipeline. Follow the steps below to understand the workflow:
 
