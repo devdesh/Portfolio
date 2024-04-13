@@ -406,14 +406,14 @@ single template may consist of a part, or the whole environment. More importantl
 <p>You can write a CloudFormation template in either <strong>YAML</strong> or <strong>JSON</strong> format. The structure
 shown below is in the YAML format.</p>
 <pre class="hljs"><code><div><span class="hljs-attr">AWSTemplateFormatVersion:</span> <span class="hljs-number">2010</span><span class="hljs-number">-09</span><span class="hljs-number">-09</span>
-<span class="hljs-attr">Description:</span> <span class="hljs-string">’Describe</span> <span class="hljs-string">what</span> <span class="hljs-string">this</span> <span class="hljs-string">will</span> <span class="hljs-string">create’</span>
+<span class="hljs-attr">Description:</span> <span class="hljs-string">'Brief description of the template'</span>
 <span class="hljs-attr">Parameters:</span>
   <span class="hljs-string">MyParameter</span>
     <span class="hljs-attr">Type:</span> <span class="hljs-string">String</span>
 <span class="hljs-attr">Mappings:</span>
   <span class="hljs-attr">RegionMap:</span>
-    <span class="hljs-string">‘us-west-2’:</span>
-      <span class="hljs-string">‘ami-abc123ab’</span>
+    <span class="hljs-attr">'us-west-2':</span>
+      <span class="hljs-string">'ami-abc123ab'</span>
 <span class="hljs-attr">Conditions:</span>
   <span class="hljs-attr">EnvIsProd:</span>
 <span class="hljs-attr">Resources:</span>

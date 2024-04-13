@@ -49,14 +49,14 @@ shown below is in the YAML format.
 
 ```yaml
 AWSTemplateFormatVersion: 2010-09-09
-Description: ’Describe what this will create’
+Description: 'Brief description of the template'
 Parameters:
   MyParameter
     Type: String
 Mappings:
   RegionMap:
-    ‘us-west-2’:
-      ‘ami-abc123ab’
+    'us-west-2':
+      'ami-abc123ab'
 Conditions:
   EnvIsProd:
 Resources:
