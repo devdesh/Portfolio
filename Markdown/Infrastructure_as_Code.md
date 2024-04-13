@@ -15,7 +15,7 @@ infrastructure for your application in the AWS cloud may consist of:
 
 You may have multiple environments such as test, staging and production for deploying
 your application. Each of these environments usually consist of the same resources such as
-Amazon EC2 instances, databases, network resources, etc. but in a **scaled-up** or a **scaled down** version.
+Amazon EC2 instances, databases, network resources, etc., but in a **scaled-up** or a **scaled-down** version.
 
 Provisioning, managing, and deprecating infrastructure in the cloud is a costly activity
 in terms of human capital. Furthermore, repeat attempts to build and modify environments manually can lead to errors.
