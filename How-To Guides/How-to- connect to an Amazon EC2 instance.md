@@ -17,12 +17,12 @@ You connect to your Amazon EC2 instance via SSH. An SSH connection requires *por
 **For MAC/Linux users:**
 
 1. Open the Terminal application.
-2. Type the commands below. In both commands, replace PATH-TO-PEM-FILE with a reference to the .pem file that you downloaded while launching the instance. In the second command, replace PUBLIC-IP with the IPv4 Public IP of the instance.
+2. Type the commands below. In both commands, replace *PATH-TO-PEM-FILE* with a reference to the .pem file that you downloaded while launching the instance. In the second command, replace *PUBLIC-IP* with the IPv4 Public IP of the instance.
   
-`
+```bash
 chmod 400 PATH-TO-PEM-FILE
 ssh -i PATH-TO-PEM-FILE ec2-user@PUBLIC-IP
-`
+```
 
 3. You will see a prompt like the one below. Answer **yes** to the prompt.
 
